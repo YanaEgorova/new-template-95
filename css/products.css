@@ -162,6 +162,11 @@
         row-gap: 3rem;
       
     }
+    .products {
+        max-width: 140rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .products .item {
         padding-top: 0;
     }
@@ -171,6 +176,7 @@
     .swiper.mySwiper {
         padding-bottom: 0;
         position: relative;
+        max-width: 100%;
     }
     .product__block {
         display: flex;
@@ -185,8 +191,8 @@
         padding: 2rem;
     }
     .product__img-box .img {
-        height: 70rem;
-        max-height: 70rem;
+        height: 60rem;
+        max-height: 60rem;
     }
     .product__text-box {
         margin: 0;
