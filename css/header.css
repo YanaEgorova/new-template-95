@@ -12,6 +12,10 @@ body.open-menu {
 .header {
     padding: 1rem 0;
 }
+.header .logo {
+    text-align: left;
+    font-size: 1.6rem;
+}
 .header__btn {
     width: 5rem;
     height: 5rem;
@@ -66,7 +70,8 @@ body.open-menu {
 }
 .cart__span-box {
     font-size: 2.2rem;
-    display: none;
+    display: flex;
+    margin-right: 2rem;
     align-items: center;
 }
 .cart__span-box svg {
